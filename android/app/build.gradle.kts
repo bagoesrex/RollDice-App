@@ -8,8 +8,7 @@ plugins {
 android {
     namespace = "com.example.rolldice_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = "26.1.10909125"
-
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
